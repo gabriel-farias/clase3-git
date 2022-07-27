@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//style/style.css">
     <title>Gabriel Farias - Perfil -</title>
 </head>
 <body>
     <header>
         <div>
-           <img src="./assets/foto.jpg" height="300" alt="">
+           <img src="./assets/foto.jpg" height="300" alt="" id="foto">
            <h1>Mis Datos</h1>
            <ul>
                <li>Edad: 33</li>
@@ -19,9 +20,12 @@
            </ul>
            <p>Trabajo en una fabrica de termoplasticos <a href="felsim.com.ar"> Felsim S.R.L. </a>, en mis tiempos libres toco la guitarra o juego al fortnite, comence a estudiar full stack developer para entrar al mundo de la tecnologia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum assumenda labore sapiente, neque delectus asperiores nam beatae sequi ad dignissimos, voluptate ex illum debitis dolorem. Tenetur cupiditate sapiente non consequatur?
            </p> 
-        </div>
-        <h3>Contactame</h3>
-        <form action="">
+        </div>        
+    </header>
+    <footer>
+       <h3>Contactame</h3>
+        <div class="formulario">
+           <form action="">
             <div>
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" id="" placeholder="Nombre y apellido">
@@ -34,11 +38,10 @@
                 <label for="email">Correo electronico</label>
                 <input type="email" name="email" id="" placeholder="direccion de email">
             </div>
-            <input type="submit" value="Enviar">
-        </form>
-    </header>
-    <footer>
+            <input type="submit" value="Enviar" class="enviar">  
+        </div>
         
+        </form> 
     </footer>
 </body>
 </html>
